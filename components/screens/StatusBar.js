@@ -1,11 +1,11 @@
 import React from 'react';
-import { Text, StyleSheet, Platform } from 'react-native';
+import { Text, StyleSheet } from 'react-native';
 
 const StatusBar = ({ message }) => {
     return (
         <Text style={styles.message}>{message}</Text>
     );
-}
+};
 
 const styles = StyleSheet.create({
     message: {
@@ -14,7 +14,8 @@ const styles = StyleSheet.create({
         fontSize: 14,
         color: 'white',
         backgroundColor: '#666666',
-        height: 45
+        height: 45,
+        width: "100%",
     }
 });
 

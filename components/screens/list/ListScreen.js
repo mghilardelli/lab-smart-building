@@ -1,9 +1,7 @@
-import React, { Component } from 'react';
+import React  from 'react';
 import { StyleSheet, View } from 'react-native';
 import { Led, LedPlaceHolder } from './Led';
 import StatusBar from './../StatusBar';
-
-
 
 class ListScreen extends React.Component {
     render() {

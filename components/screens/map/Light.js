@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Image, View, TouchableWithoutFeedback } from 'react-native';
+import { Image, View, TouchableWithoutFeedback } from 'react-native';
 import Images from '@assets/images';
 
 export default class Light extends Component {
